@@ -1,0 +1,19 @@
+
+# Secrets, local config and build outputs (never commit)
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+*.jks
+*.keystore
+keystore.properties
+key.properties
+signing.properties
+local.properties
+google-services.json
+*service-account*.json
+*adminsdk*.json
+*.pem
+*.p12
+!.env.example
+!.dev.vars.example
